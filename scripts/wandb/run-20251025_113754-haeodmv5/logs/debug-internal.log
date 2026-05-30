@@ -1,0 +1,6 @@
+{"time":"2025-10-25T11:37:54.431200664+02:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-25T11:37:54.725160917+02:00","level":"INFO","msg":"stream: created new stream","id":"haeodmv5"}
+{"time":"2025-10-25T11:37:54.725333468+02:00","level":"INFO","msg":"stream: started","id":"haeodmv5"}
+{"time":"2025-10-25T11:37:54.725325976+02:00","level":"INFO","msg":"handler: started","stream_id":"haeodmv5"}
+{"time":"2025-10-25T11:37:54.725368306+02:00","level":"INFO","msg":"writer: started","stream_id":"haeodmv5"}
+{"time":"2025-10-25T11:37:54.72538529+02:00","level":"INFO","msg":"sender: started","stream_id":"haeodmv5"}

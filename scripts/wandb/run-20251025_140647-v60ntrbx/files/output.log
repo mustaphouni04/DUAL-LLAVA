@@ -1,0 +1,82 @@
+  0%|                                                                           | 0/34883 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/melaichouni/LLaVA/scripts/../llava/train/train_mem.py", line 7, in <module>
+    train_mm_projector(attn_implementation="eager")
+  File "/home/melaichouni/LLaVA/llava/train/train.py", line 1102, in train_mm_projector
+    trainer.train()
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2509, in _inner_training_loop
+    batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 5263, in get_batch_samples
+    batch_samples.append(next(epoch_iterator))
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/accelerate/data_loader.py", line 567, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 708, in __next__
+    data = self._next_data()
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1480, in _next_data
+    return self._process_data(data)
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1505, in _process_data
+    data.reraise()
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/_utils.py", line 733, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 349, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/melaichouni/LLaVA/llava/train/train.py", line 724, in __getitem__
+    data_dict = preprocess(
+  File "/home/melaichouni/LLaVA/llava/train/train.py", line 627, in preprocess
+    return preprocess_v1(sources, tokenizer, has_image=has_image)
+  File "/home/melaichouni/LLaVA/llava/train/train.py", line 456, in preprocess_v1
+    total_len = int(target.ne(tokenizer.pad_token_id).sum())
+TypeError: ne() received an invalid combination of arguments - got (NoneType), but expected one of:
+ * (Tensor other)
+      didn't match because some of the arguments have invalid types: ([31;1mNoneType[0m)
+ * (Number other)
+      didn't match because some of the arguments have invalid types: ([31;1mNoneType[0m)
+
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/melaichouni/LLaVA/scripts/../llava/train/train_mem.py", line 7, in <module>
+[rank0]:     train_mm_projector(attn_implementation="eager")
+[rank0]:   File "/home/melaichouni/LLaVA/llava/train/train.py", line 1102, in train_mm_projector
+[rank0]:     trainer.train()
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2509, in _inner_training_loop
+[rank0]:     batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 5263, in get_batch_samples
+[rank0]:     batch_samples.append(next(epoch_iterator))
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/accelerate/data_loader.py", line 567, in __iter__
+[rank0]:     current_batch = next(dataloader_iter)
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 708, in __next__
+[rank0]:     data = self._next_data()
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1480, in _next_data
+[rank0]:     return self._process_data(data)
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1505, in _process_data
+[rank0]:     data.reraise()
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/_utils.py", line 733, in reraise
+[rank0]:     raise exception
+[rank0]: TypeError: Caught TypeError in DataLoader worker process 0.
+[rank0]: Original Traceback (most recent call last):
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 349, in _worker_loop
+[rank0]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+[rank0]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+[rank0]:     data = [self.dataset[idx] for idx in possibly_batched_index]
+[rank0]:   File "/home/melaichouni/LLaVA/llava/train/train.py", line 724, in __getitem__
+[rank0]:     data_dict = preprocess(
+[rank0]:   File "/home/melaichouni/LLaVA/llava/train/train.py", line 627, in preprocess
+[rank0]:     return preprocess_v1(sources, tokenizer, has_image=has_image)
+[rank0]:   File "/home/melaichouni/LLaVA/llava/train/train.py", line 456, in preprocess_v1
+[rank0]:     total_len = int(target.ne(tokenizer.pad_token_id).sum())
+[rank0]: TypeError: ne() received an invalid combination of arguments - got (NoneType), but expected one of:
+[rank0]:  * (Tensor other)
+[rank0]:       didn't match because some of the arguments have invalid types: ([31;1mNoneType[0m)
+[rank0]:  * (Number other)
+[rank0]:       didn't match because some of the arguments have invalid types: ([31;1mNoneType[0m)

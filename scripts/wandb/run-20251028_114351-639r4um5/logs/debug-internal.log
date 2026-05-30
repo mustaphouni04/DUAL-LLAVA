@@ -1,0 +1,18 @@
+{"time":"2025-10-28T11:43:51.866259673+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-28T11:43:52.157998553+01:00","level":"INFO","msg":"stream: created new stream","id":"639r4um5"}
+{"time":"2025-10-28T11:43:52.158066638+01:00","level":"INFO","msg":"handler: started","stream_id":"639r4um5"}
+{"time":"2025-10-28T11:43:52.158181553+01:00","level":"INFO","msg":"stream: started","id":"639r4um5"}
+{"time":"2025-10-28T11:43:52.158209009+01:00","level":"INFO","msg":"writer: started","stream_id":"639r4um5"}
+{"time":"2025-10-28T11:43:52.158217081+01:00","level":"INFO","msg":"sender: started","stream_id":"639r4um5"}
+{"time":"2025-10-28T12:50:31.1340236+01:00","level":"ERROR","msg":"runconsolelogs: failed to write to file: failed to append: write /home/melaichouni/LLaVA/scripts/wandb/run-20251028_114351-639r4um5/files/output.log: no space left on device"}
+{"time":"2025-10-28T12:50:31.15473034+01:00","level":"ERROR","msg":"writer: failed to save record: transactionlog: error writing: write /home/melaichouni/LLaVA/scripts/wandb/run-20251028_114351-639r4um5/run-639r4um5.wandb: no space left on device"}
+{"time":"2025-10-28T12:50:31.155146566+01:00","level":"INFO","msg":"stream: closing","id":"639r4um5"}
+{"time":"2025-10-28T12:50:31.155424361+01:00","level":"ERROR","msg":"writer: failed to save record: transactionlog: error starting next record: write /home/melaichouni/LLaVA/scripts/wandb/run-20251028_114351-639r4um5/run-639r4um5.wandb: no space left on device"}
+{"time":"2025-10-28T12:50:31.155975699+01:00","level":"ERROR","msg":"writer: failed to save record: transactionlog: error starting next record: write /home/melaichouni/LLaVA/scripts/wandb/run-20251028_114351-639r4um5/run-639r4um5.wandb: no space left on device"}
+{"time":"2025-10-28T12:50:31.174776346+01:00","level":"ERROR","msg":"sender: failed to upload run summary: write /home/melaichouni/LLaVA/scripts/wandb/run-20251028_114351-639r4um5/files/wandb-summary.json: no space left on device"}
+{"time":"2025-10-28T12:50:31.179966932+01:00","level":"ERROR","msg":"sender: failed to upload run config: write /home/melaichouni/LLaVA/scripts/wandb/run-20251028_114351-639r4um5/files/config.yaml: no space left on device"}
+{"time":"2025-10-28T12:50:32.181685421+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-28T12:50:32.370388975+01:00","level":"INFO","msg":"handler: closed","stream_id":"639r4um5"}
+{"time":"2025-10-28T12:50:32.370446378+01:00","level":"ERROR","msg":"writer: failed closing store: transactionlog: error closing writer: write /home/melaichouni/LLaVA/scripts/wandb/run-20251028_114351-639r4um5/run-639r4um5.wandb: no space left on device"}
+{"time":"2025-10-28T12:50:32.370564356+01:00","level":"INFO","msg":"sender: closed","stream_id":"639r4um5"}
+{"time":"2025-10-28T12:50:32.370585121+01:00","level":"INFO","msg":"stream: closed","id":"639r4um5"}

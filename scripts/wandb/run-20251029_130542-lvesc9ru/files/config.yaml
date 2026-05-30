@@ -1,0 +1,637 @@
+_attn_implementation_autoset:
+    value: true
+_name_or_path:
+    value: google/gemma-2-2b-it
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            8f3qpaw62ccd1z0qm0wdpazh7wetp0ir:
+                args:
+                    - --local_rank=0
+                    - --deepspeed
+                    - zero2.json
+                    - --model_name_or_path
+                    - google/gemma-2-2b-it
+                    - --version
+                    - plain
+                    - --data_path
+                    - ../../cc3m_filtered/blip_laion_cc_sbu_558k.json
+                    - --image_folder
+                    - ../../cc3m_filtered/images
+                    - --vision_tower
+                    - openai/clip-vit-large-patch14-336
+                    - --tune_mm_mlp_adapter
+                    - "True"
+                    - --mm_vision_select_layer
+                    - "-2"
+                    - --mm_use_im_start_end
+                    - "False"
+                    - --mm_use_im_patch_token
+                    - "False"
+                    - --bf16
+                    - "True"
+                    - --output_dir
+                    - ./checkpoints/llava-gemma-2-2b-it-pretrain
+                    - --num_train_epochs
+                    - "1"
+                    - --per_device_train_batch_size
+                    - "4"
+                    - --per_device_eval_batch_size
+                    - "4"
+                    - --gradient_accumulation_steps
+                    - "1"
+                    - --save_strategy
+                    - steps
+                    - --save_steps
+                    - "6000"
+                    - --save_total_limit
+                    - "1"
+                    - --learning_rate
+                    - "2e-3"
+                    - --weight_decay
+                    - "0."
+                    - --warmup_ratio
+                    - "0.03"
+                    - --lr_scheduler_type
+                    - cosine
+                    - --logging_steps
+                    - "1"
+                    - --tf32
+                    - "True"
+                    - --model_max_length
+                    - "1000"
+                    - --gradient_checkpointing
+                    - "True"
+                    - --dataloader_num_workers
+                    - "4"
+                    - --lazy_preprocess
+                    - "True"
+                    - --report_to
+                    - wandb
+                codePath: llava/train/train_mem.py
+                cpu_count: 24
+                cpu_count_logical: 48
+                cudaVersion: "12.1"
+                disk:
+                    /:
+                        total: "315926315008"
+                        used: "73194328064"
+                email: elaichounimustapha@gmail.com
+                executable: /home/melaichouni/miniconda3/envs/llava/bin/python3.10
+                git:
+                    commit: c121f0432da27facab705978f83c4ada465e46fd
+                    remote: https://github.com/haotian-liu/LLaVA.git
+                gpu: NVIDIA A40
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "48305799168"
+                      name: NVIDIA A40
+                      uuid: GPU-bc124711-e3f4-5956-e69b-ed3a14e27a86
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "48305799168"
+                      name: NVIDIA A40
+                      uuid: GPU-1066db53-7e3f-f02e-8df3-eb018e5f5101
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "48305799168"
+                      name: NVIDIA A40
+                      uuid: GPU-9414ccd1-1f5d-98a9-d2bd-d2bc99a7dddd
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "48305799168"
+                      name: NVIDIA A40
+                      uuid: GPU-d04263c7-25ca-60f0-05c3-c05c538cef65
+                host: cudahpc32
+                memory:
+                    total: "270122897408"
+                os: Linux-5.15.0-69-generic-x86_64-with-glibc2.31
+                program: /home/melaichouni/LLaVA/scripts/../llava/train/train_mem.py
+                python: CPython 3.10.19
+                root: /home/melaichouni/LLaVA/scripts
+                startedAt: "2025-10-29T12:05:42.288967Z"
+                writerId: 8f3qpaw62ccd1z0qm0wdpazh7wetp0ir
+        m:
+            - "1": train/global_step
+              "6":
+                - 3
+              "7": []
+            - "2": '*'
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 71
+                - 98
+                - 105
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 71
+                - 98
+                - 105
+            "3":
+                - 7
+                - 13
+                - 19
+                - 62
+                - 66
+            "4": 3.10.19
+            "5": 0.22.2
+            "6": 4.51.2
+            "9":
+                "1": transformers_trainer
+            "12": 0.22.2
+            "13": linux-x86_64
+accelerator_config:
+    value:
+        dispatch_batches: null
+        even_batches: true
+        gradient_accumulation_kwargs: null
+        non_blocking: false
+        split_batches: false
+        use_seedable_sampler: true
+adafactor:
+    value: false
+adam_beta1:
+    value: 0.9
+adam_beta2:
+    value: 0.999
+adam_epsilon:
+    value: 1e-08
+add_cross_attention:
+    value: false
+architectures:
+    value:
+        - Gemma2ForCausalLM
+attention_bias:
+    value: false
+attention_dropout:
+    value: 0
+attn_logit_softcapping:
+    value: 50
+auto_find_batch_size:
+    value: false
+average_tokens_across_devices:
+    value: false
+bad_words_ids:
+    value: null
+batch_eval_metrics:
+    value: false
+begin_suppress_tokens:
+    value: null
+bf16:
+    value: true
+bf16_full_eval:
+    value: false
+bits:
+    value: 16
+bos_token_id:
+    value: 2
+cache_dir:
+    value: null
+cache_implementation:
+    value: hybrid
+chunk_size_feed_forward:
+    value: 0
+cross_attention_hidden_size:
+    value: null
+data_seed:
+    value: null
+dataloader_drop_last:
+    value: false
+dataloader_num_workers:
+    value: 4
+dataloader_persistent_workers:
+    value: false
+dataloader_pin_memory:
+    value: true
+dataloader_prefetch_factor:
+    value: null
+ddp_backend:
+    value: null
+ddp_broadcast_buffers:
+    value: null
+ddp_bucket_cap_mb:
+    value: null
+ddp_find_unused_parameters:
+    value: null
+ddp_timeout:
+    value: 1800
+debug:
+    value: []
+decoder_start_token_id:
+    value: null
+deepspeed:
+    value: zero2.json
+disable_tqdm:
+    value: false
+diversity_penalty:
+    value: 0
+do_eval:
+    value: false
+do_predict:
+    value: false
+do_sample:
+    value: false
+do_train:
+    value: false
+double_quant:
+    value: true
+early_stopping:
+    value: false
+encoder_no_repeat_ngram_size:
+    value: 0
+eos_token_id:
+    value:
+        - 1
+        - 107
+eval_accumulation_steps:
+    value: null
+eval_delay:
+    value: 0
+eval_do_concat_batches:
+    value: true
+eval_on_start:
+    value: false
+eval_steps:
+    value: null
+eval_strategy:
+    value: "no"
+eval_use_gather_object:
+    value: false
+exponential_decay_length_penalty:
+    value: null
+final_logit_softcapping:
+    value: 30
+finetuning_task:
+    value: null
+forced_bos_token_id:
+    value: null
+forced_eos_token_id:
+    value: null
+fp16:
+    value: false
+fp16_backend:
+    value: auto
+fp16_full_eval:
+    value: false
+fp16_opt_level:
+    value: O1
+freeze_mm_mlp_adapter:
+    value: false
+fsdp:
+    value: []
+fsdp_config:
+    value:
+        min_num_params: 0
+        xla: false
+        xla_fsdp_grad_ckpt: false
+        xla_fsdp_v2: false
+fsdp_min_num_params:
+    value: 0
+fsdp_transformer_layer_cls_to_wrap:
+    value: null
+full_determinism:
+    value: false
+gradient_accumulation_steps:
+    value: 1
+gradient_checkpointing:
+    value: true
+gradient_checkpointing_kwargs:
+    value: null
+greater_is_better:
+    value: null
+group_by_length:
+    value: false
+group_by_modality_length:
+    value: false
+half_precision_backend:
+    value: auto
+head_dim:
+    value: 256
+hidden_act:
+    value: gelu_pytorch_tanh
+hidden_activation:
+    value: gelu_pytorch_tanh
+hidden_size:
+    value: 2304
+hub_always_push:
+    value: false
+hub_model_id:
+    value: null
+hub_private_repo:
+    value: null
+hub_strategy:
+    value: every_save
+hub_token:
+    value: <HUB_TOKEN>
+id2label:
+    value:
+        "0": LABEL_0
+        "1": LABEL_1
+ignore_data_skip:
+    value: false
+include_for_metrics:
+    value: []
+include_inputs_for_metrics:
+    value: false
+include_num_input_tokens_seen:
+    value: false
+include_tokens_per_second:
+    value: false
+initializer_range:
+    value: 0.02
+intermediate_size:
+    value: 9216
+is_decoder:
+    value: false
+is_encoder_decoder:
+    value: false
+jit_mode_eval:
+    value: false
+label_names:
+    value: null
+label_smoothing_factor:
+    value: 0
+label2id:
+    value:
+        LABEL_0: 0
+        LABEL_1: 1
+learning_rate:
+    value: 0.002
+length_column_name:
+    value: length
+length_penalty:
+    value: 1
+load_best_model_at_end:
+    value: false
+local_rank:
+    value: 0
+log_level:
+    value: passive
+log_level_replica:
+    value: warning
+log_on_each_node:
+    value: true
+logging_dir:
+    value: ./checkpoints/llava-gemma-2-2b-it-pretrain/runs/Oct29_13-04-23_cudahpc32
+logging_first_step:
+    value: false
+logging_nan_inf_filter:
+    value: true
+logging_steps:
+    value: 1
+logging_strategy:
+    value: steps
+lora_alpha:
+    value: 16
+lora_bias:
+    value: none
+lora_dropout:
+    value: 0.05
+lora_enable:
+    value: false
+lora_r:
+    value: 64
+lora_weight_path:
+    value: ""
+lr_scheduler_type:
+    value: cosine
+max_grad_norm:
+    value: 1
+max_length:
+    value: 20
+max_position_embeddings:
+    value: 8192
+max_steps:
+    value: -1
+metric_for_best_model:
+    value: null
+min_length:
+    value: 0
+mlp_bias:
+    value: false
+mm_hidden_size:
+    value: 1024
+mm_patch_merge_type:
+    value: flat
+mm_projector_lr:
+    value: null
+mm_projector_type:
+    value: linear
+mm_vision_select_feature:
+    value: patch
+mm_vision_select_layer:
+    value: -2
+mm_vision_tower:
+    value: openai/clip-vit-large-patch14-336
+model/num_parameters:
+    value: 3509915136
+model_max_length:
+    value: 1000
+model_type:
+    value: llava_llama
+mp_parameters:
+    value: ""
+mpt_attn_impl:
+    value: triton
+neftune_noise_alpha:
+    value: null
+no_cuda:
+    value: false
+no_repeat_ngram_size:
+    value: 0
+num_attention_heads:
+    value: 8
+num_beam_groups:
+    value: 1
+num_beams:
+    value: 1
+num_hidden_layers:
+    value: 26
+num_key_value_heads:
+    value: 4
+num_return_sequences:
+    value: 1
+num_train_epochs:
+    value: 1
+optim:
+    value: adamw_torch
+optim_args:
+    value: null
+optim_target_modules:
+    value: null
+output_attentions:
+    value: false
+output_dir:
+    value: ./checkpoints/llava-gemma-2-2b-it-pretrain
+output_hidden_states:
+    value: false
+output_scores:
+    value: false
+overwrite_output_dir:
+    value: false
+pad_token_id:
+    value: 0
+past_index:
+    value: -1
+per_device_eval_batch_size:
+    value: 4
+per_device_train_batch_size:
+    value: 4
+per_gpu_eval_batch_size:
+    value: null
+per_gpu_train_batch_size:
+    value: null
+prediction_loss_only:
+    value: false
+prefix:
+    value: null
+pretraining_tp:
+    value: 1
+problem_type:
+    value: null
+push_to_hub:
+    value: false
+push_to_hub_model_id:
+    value: null
+push_to_hub_organization:
+    value: null
+push_to_hub_token:
+    value: <PUSH_TO_HUB_TOKEN>
+quant_type:
+    value: nf4
+query_pre_attn_scalar:
+    value: 256
+ray_scope:
+    value: last
+remove_invalid_values:
+    value: false
+remove_unused_columns:
+    value: false
+repetition_penalty:
+    value: 1
+report_to:
+    value:
+        - wandb
+restore_callback_states_from_checkpoint:
+    value: false
+resume_from_checkpoint:
+    value: null
+return_dict:
+    value: true
+return_dict_in_generate:
+    value: false
+rms_norm_eps:
+    value: 1e-06
+rope_scaling:
+    value: null
+rope_theta:
+    value: 10000
+run_name:
+    value: ./checkpoints/llava-gemma-2-2b-it-pretrain
+save_on_each_node:
+    value: false
+save_only_model:
+    value: false
+save_safetensors:
+    value: true
+save_steps:
+    value: 6000
+save_strategy:
+    value: steps
+save_total_limit:
+    value: 1
+seed:
+    value: 42
+sep_token_id:
+    value: null
+skip_memory_metrics:
+    value: true
+sliding_window:
+    value: 4096
+suppress_tokens:
+    value: null
+task_specific_params:
+    value: null
+temperature:
+    value: 1
+tf_legacy_loss:
+    value: false
+tf32:
+    value: true
+tie_encoder_decoder:
+    value: false
+tie_word_embeddings:
+    value: false
+tokenizer_class:
+    value: null
+top_k:
+    value: 50
+top_p:
+    value: 1
+torch_compile:
+    value: false
+torch_compile_backend:
+    value: null
+torch_compile_mode:
+    value: null
+torch_dtype:
+    value: bfloat16
+torch_empty_cache_steps:
+    value: null
+torchdynamo:
+    value: null
+torchscript:
+    value: false
+tp_size:
+    value: 0
+tpu_metrics_debug:
+    value: false
+tpu_num_cores:
+    value: null
+transformers_version:
+    value: 4.51.2
+typical_p:
+    value: 1
+use_bfloat16:
+    value: false
+use_cache:
+    value: false
+use_cpu:
+    value: false
+use_ipex:
+    value: false
+use_legacy_prediction_loop:
+    value: false
+use_liger_kernel:
+    value: false
+use_mm_proj:
+    value: true
+use_mps_device:
+    value: false
+vocab_size:
+    value: 256000
+warmup_ratio:
+    value: 0.03
+warmup_steps:
+    value: 0
+weight_decay:
+    value: 0

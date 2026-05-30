@@ -1,0 +1,2 @@
+  0%|                                                                          | 0/34883 [00:00<?, ?it/s]
+{'train_runtime': 1.3777, 'train_samples_per_second': 405111.049, 'train_steps_per_second': 25319.441, 'train_loss': 0.0, 'epoch': 1.0}

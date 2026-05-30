@@ -1,0 +1,6 @@
+{"time":"2025-10-27T12:17:33.149500039+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-27T12:17:33.446936443+01:00","level":"INFO","msg":"stream: created new stream","id":"omldqnbt"}
+{"time":"2025-10-27T12:17:33.447064746+01:00","level":"INFO","msg":"handler: started","stream_id":"omldqnbt"}
+{"time":"2025-10-27T12:17:33.447102832+01:00","level":"INFO","msg":"stream: started","id":"omldqnbt"}
+{"time":"2025-10-27T12:17:33.447125987+01:00","level":"INFO","msg":"sender: started","stream_id":"omldqnbt"}
+{"time":"2025-10-27T12:17:33.447136098+01:00","level":"INFO","msg":"writer: started","stream_id":"omldqnbt"}

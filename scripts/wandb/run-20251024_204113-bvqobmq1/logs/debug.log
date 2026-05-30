@@ -1,0 +1,15 @@
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_setup.py:_flush():81] Current SDK version is 0.22.2
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_setup.py:_flush():81] Configure stats pid to 2219813
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_setup.py:_flush():81] Loading settings from /home/melaichouni/.config/wandb/settings
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_setup.py:_flush():81] Loading settings from /home/melaichouni/LLaVA/scripts/wandb/settings
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_init.py:setup_run_log_directory():705] Logging user logs to /home/melaichouni/LLaVA/scripts/wandb/run-20251024_204113-bvqobmq1/logs/debug.log
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to /home/melaichouni/LLaVA/scripts/wandb/run-20251024_204113-bvqobmq1/logs/debug-internal.log
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_init.py:init():832] calling init triggers
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-10-24 20:41:13,827 INFO    MainThread:2219813 [wandb_init.py:init():880] starting backend
+2025-10-24 20:41:14,036 INFO    MainThread:2219813 [wandb_init.py:init():883] sending inform_init request
+2025-10-24 20:41:14,046 INFO    MainThread:2219813 [wandb_init.py:init():891] backend started and connected
+2025-10-24 20:41:14,048 INFO    MainThread:2219813 [wandb_init.py:init():961] updated telemetry
+2025-10-24 20:41:14,056 INFO    MainThread:2219813 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout

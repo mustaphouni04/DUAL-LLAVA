@@ -1,0 +1,6 @@
+{"time":"2025-10-28T09:54:52.408831938+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-28T09:54:52.700449281+01:00","level":"INFO","msg":"stream: created new stream","id":"jzhnxptv"}
+{"time":"2025-10-28T09:54:52.700606058+01:00","level":"INFO","msg":"stream: started","id":"jzhnxptv"}
+{"time":"2025-10-28T09:54:52.700602547+01:00","level":"INFO","msg":"handler: started","stream_id":"jzhnxptv"}
+{"time":"2025-10-28T09:54:52.700652589+01:00","level":"INFO","msg":"writer: started","stream_id":"jzhnxptv"}
+{"time":"2025-10-28T09:54:52.700691288+01:00","level":"INFO","msg":"sender: started","stream_id":"jzhnxptv"}

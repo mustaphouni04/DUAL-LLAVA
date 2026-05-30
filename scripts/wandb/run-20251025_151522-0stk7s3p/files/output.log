@@ -1,0 +1,178 @@
+                                                                                                         
+{'loss': 15.3063, 'grad_norm': 227.48199462890625, 'learning_rate': 0.0, 'epoch': 0.0}
+{'loss': 15.0144, 'grad_norm': 89.71275329589844, 'learning_rate': 1.910219675262655e-06, 'epoch': 0.0}
+{'loss': 15.2386, 'grad_norm': 104.2384033203125, 'learning_rate': 3.82043935052531e-06, 'epoch': 0.0}
+{'loss': 15.71, 'grad_norm': 103.36917877197266, 'learning_rate': 5.730659025787966e-06, 'epoch': 0.0}
+{'loss': 15.418, 'grad_norm': 68.09518432617188, 'learning_rate': 7.64087870105062e-06, 'epoch': 0.0}
+{'loss': 15.7938, 'grad_norm': 99.55109405517578, 'learning_rate': 9.551098376313278e-06, 'epoch': 0.0}
+{'loss': 15.0538, 'grad_norm': 200.9748992919922, 'learning_rate': 1.1461318051575932e-05, 'epoch': 0.0}
+{'loss': 15.3243, 'grad_norm': 69.65847778320312, 'learning_rate': 1.3371537726838588e-05, 'epoch': 0.0}
+{'loss': 14.7841, 'grad_norm': 95.53865051269531, 'learning_rate': 1.528175740210124e-05, 'epoch': 0.0}
+{'loss': 14.9963, 'grad_norm': 122.47552490234375, 'learning_rate': 1.7191977077363898e-05, 'epoch': 0.0}
+{'loss': 15.1245, 'grad_norm': 92.93798065185547, 'learning_rate': 1.9102196752626555e-05, 'epoch': 0.0}
+{'loss': 15.4265, 'grad_norm': 64.40914916992188, 'learning_rate': 2.1012416427889206e-05, 'epoch': 0.0}
+{'loss': 14.7298, 'grad_norm': 78.44184875488281, 'learning_rate': 2.2922636103151864e-05, 'epoch': 0.0}
+{'loss': 15.4643, 'grad_norm': 89.83551788330078, 'learning_rate': 2.4832855778414518e-05, 'epoch': 0.0}
+{'loss': 15.219, 'grad_norm': 82.13427734375, 'learning_rate': 2.6743075453677175e-05, 'epoch': 0.0}
+{'loss': 14.6072, 'grad_norm': 75.18736267089844, 'learning_rate': 2.865329512893983e-05, 'epoch': 0.0}
+{'loss': 15.0313, 'grad_norm': 73.22059631347656, 'learning_rate': 3.056351480420248e-05, 'epoch': 0.0}
+{'loss': 14.9897, 'grad_norm': 164.15093994140625, 'learning_rate': 3.247373447946514e-05, 'epoch': 0.0}
+{'loss': 14.752, 'grad_norm': 111.63038635253906, 'learning_rate': 3.4383954154727795e-05, 'epoch': 0.0}
+{'loss': 14.7634, 'grad_norm': 111.44097900390625, 'learning_rate': 3.629417382999045e-05, 'epoch': 0.0}
+{'loss': 14.3034, 'grad_norm': 131.31813049316406, 'learning_rate': 3.820439350525311e-05, 'epoch': 0.0}
+{'loss': 14.8646, 'grad_norm': 106.5702133178711, 'learning_rate': 4.0114613180515765e-05, 'epoch': 0.0}
+{'loss': 14.2741, 'grad_norm': 95.0881118774414, 'learning_rate': 4.202483285577841e-05, 'epoch': 0.0}
+{'loss': 14.9827, 'grad_norm': 115.41096496582031, 'learning_rate': 4.3935052531041066e-05, 'epoch': 0.0}
+{'loss': 14.5324, 'grad_norm': 114.72416687011719, 'learning_rate': 4.584527220630373e-05, 'epoch': 0.0}
+{'loss': 14.3726, 'grad_norm': 107.33995056152344, 'learning_rate': 4.775549188156638e-05, 'epoch': 0.0}
+{'loss': 14.4787, 'grad_norm': 89.87981414794922, 'learning_rate': 4.9665711556829036e-05, 'epoch': 0.0}
+{'loss': 13.6163, 'grad_norm': 79.8152847290039, 'learning_rate': 5.157593123209169e-05, 'epoch': 0.0}
+{'loss': 13.9257, 'grad_norm': 52.94074249267578, 'learning_rate': 5.348615090735435e-05, 'epoch': 0.0}
+{'loss': 14.2543, 'grad_norm': 68.69538116455078, 'learning_rate': 5.5396370582617005e-05, 'epoch': 0.0}
+{'loss': 14.3265, 'grad_norm': 58.40631103515625, 'learning_rate': 5.730659025787966e-05, 'epoch': 0.0}
+{'loss': 14.0304, 'grad_norm': 54.58685302734375, 'learning_rate': 5.921680993314231e-05, 'epoch': 0.0}
+{'loss': 13.6937, 'grad_norm': 56.12683868408203, 'learning_rate': 6.112702960840496e-05, 'epoch': 0.0}
+{'loss': 13.9381, 'grad_norm': 90.37578582763672, 'learning_rate': 6.303724928366763e-05, 'epoch': 0.0}
+{'loss': 13.6653, 'grad_norm': 60.04251480102539, 'learning_rate': 6.494746895893028e-05, 'epoch': 0.0}
+{'loss': 13.5251, 'grad_norm': 62.8366813659668, 'learning_rate': 6.685768863419294e-05, 'epoch': 0.0}
+{'loss': 13.7427, 'grad_norm': 148.42666625976562, 'learning_rate': 6.876790830945559e-05, 'epoch': 0.0}
+{'loss': 13.2036, 'grad_norm': 69.54434204101562, 'learning_rate': 7.067812798471824e-05, 'epoch': 0.0}
+{'loss': 13.1705, 'grad_norm': 206.92726135253906, 'learning_rate': 7.25883476599809e-05, 'epoch': 0.0}
+{'loss': 13.1537, 'grad_norm': 48.44483184814453, 'learning_rate': 7.449856733524355e-05, 'epoch': 0.0}
+{'loss': 13.5335, 'grad_norm': 50.93905258178711, 'learning_rate': 7.640878701050622e-05, 'epoch': 0.0}
+{'loss': 13.9067, 'grad_norm': 57.94748306274414, 'learning_rate': 7.831900668576888e-05, 'epoch': 0.0}
+{'loss': 13.7402, 'grad_norm': 88.86907196044922, 'learning_rate': 8.022922636103153e-05, 'epoch': 0.0}
+{'loss': 13.8949, 'grad_norm': 55.8043098449707, 'learning_rate': 8.213944603629417e-05, 'epoch': 0.0}
+{'loss': 13.7307, 'grad_norm': 83.4080581665039, 'learning_rate': 8.404966571155682e-05, 'epoch': 0.0}
+{'loss': 13.7782, 'grad_norm': 34.20534133911133, 'learning_rate': 8.595988538681948e-05, 'epoch': 0.0}
+{'loss': 13.2697, 'grad_norm': 37.172428131103516, 'learning_rate': 8.787010506208213e-05, 'epoch': 0.0}
+{'loss': 13.3117, 'grad_norm': 31.83295440673828, 'learning_rate': 8.978032473734479e-05, 'epoch': 0.0}
+{'loss': 12.505, 'grad_norm': 67.10662078857422, 'learning_rate': 9.169054441260745e-05, 'epoch': 0.0}
+{'loss': 12.6182, 'grad_norm': 74.58637237548828, 'learning_rate': 9.360076408787011e-05, 'epoch': 0.0}
+{'loss': 12.2948, 'grad_norm': 34.72814178466797, 'learning_rate': 9.551098376313276e-05, 'epoch': 0.0}
+{'loss': 11.6101, 'grad_norm': 21.818679809570312, 'learning_rate': 9.742120343839542e-05, 'epoch': 0.0}
+{'loss': 11.6048, 'grad_norm': 34.65266036987305, 'learning_rate': 9.933142311365807e-05, 'epoch': 0.0}
+{'loss': 11.9443, 'grad_norm': 31.759138107299805, 'learning_rate': 0.00010124164278892073, 'epoch': 0.0}
+{'loss': 11.452, 'grad_norm': 36.27351760864258, 'learning_rate': 0.00010315186246418338, 'epoch': 0.0}
+{'loss': 10.9797, 'grad_norm': 26.318899154663086, 'learning_rate': 0.00010506208213944605, 'epoch': 0.0}
+{'loss': 11.1187, 'grad_norm': 25.270408630371094, 'learning_rate': 0.0001069723018147087, 'epoch': 0.0}
+{'loss': 10.5904, 'grad_norm': 17.98081398010254, 'learning_rate': 0.00010888252148997136, 'epoch': 0.0}
+{'loss': 10.9872, 'grad_norm': 18.737825393676758, 'learning_rate': 0.00011079274116523401, 'epoch': 0.0}
+{'loss': 10.7608, 'grad_norm': 21.214868545532227, 'learning_rate': 0.00011270296084049666, 'epoch': 0.0}
+{'loss': 9.8536, 'grad_norm': 15.049103736877441, 'learning_rate': 0.00011461318051575932, 'epoch': 0.0}
+{'loss': 9.4401, 'grad_norm': 16.17405891418457, 'learning_rate': 0.00011652340019102196, 'epoch': 0.0}
+{'loss': 10.4226, 'grad_norm': 16.917070388793945, 'learning_rate': 0.00011843361986628463, 'epoch': 0.0}
+{'loss': 10.279, 'grad_norm': 23.473209381103516, 'learning_rate': 0.00012034383954154728, 'epoch': 0.0}
+{'loss': 9.9006, 'grad_norm': 20.926025390625, 'learning_rate': 0.00012225405921680992, 'epoch': 0.0}
+{'loss': 10.0214, 'grad_norm': 38.703826904296875, 'learning_rate': 0.0001241642788920726, 'epoch': 0.0}
+{'loss': 8.9903, 'grad_norm': 16.596925735473633, 'learning_rate': 0.00012607449856733526, 'epoch': 0.0}
+{'loss': 10.6131, 'grad_norm': 14.097495079040527, 'learning_rate': 0.00012798471824259792, 'epoch': 0.0}
+{'loss': 9.379, 'grad_norm': 11.930354118347168, 'learning_rate': 0.00012989493791786056, 'epoch': 0.0}
+{'loss': 9.6465, 'grad_norm': 9.872509002685547, 'learning_rate': 0.0001318051575931232, 'epoch': 0.0}
+{'loss': 9.6547, 'grad_norm': 12.733187675476074, 'learning_rate': 0.00013371537726838587, 'epoch': 0.0}
+{'loss': 9.5379, 'grad_norm': 12.946910858154297, 'learning_rate': 0.00013562559694364851, 'epoch': 0.0}
+{'loss': 9.7071, 'grad_norm': 10.586444854736328, 'learning_rate': 0.00013753581661891118, 'epoch': 0.0}
+{'loss': 9.3193, 'grad_norm': 12.334097862243652, 'learning_rate': 0.00013944603629417382, 'epoch': 0.0}
+{'loss': 9.0818, 'grad_norm': 15.16188907623291, 'learning_rate': 0.0001413562559694365, 'epoch': 0.0}
+{'loss': 9.2047, 'grad_norm': 10.117229461669922, 'learning_rate': 0.00014326647564469913, 'epoch': 0.0}
+{'loss': 9.2899, 'grad_norm': 10.30992603302002, 'learning_rate': 0.0001451766953199618, 'epoch': 0.0}
+{'loss': 9.187, 'grad_norm': 10.990477561950684, 'learning_rate': 0.00014708691499522444, 'epoch': 0.0}
+{'loss': 8.9964, 'grad_norm': 14.399455070495605, 'learning_rate': 0.0001489971346704871, 'epoch': 0.0}
+{'loss': 8.6268, 'grad_norm': 15.436373710632324, 'learning_rate': 0.00015090735434574975, 'epoch': 0.0}
+{'loss': 9.1461, 'grad_norm': 11.595491409301758, 'learning_rate': 0.00015281757402101244, 'epoch': 0.0}
+{'loss': 9.2134, 'grad_norm': 10.534019470214844, 'learning_rate': 0.00015472779369627508, 'epoch': 0.0}
+{'loss': 9.6866, 'grad_norm': 14.92969036102295, 'learning_rate': 0.00015663801337153775, 'epoch': 0.0}
+{'loss': 8.3204, 'grad_norm': 12.665846824645996, 'learning_rate': 0.0001585482330468004, 'epoch': 0.0}
+{'loss': 9.4388, 'grad_norm': 14.455924034118652, 'learning_rate': 0.00016045845272206306, 'epoch': 0.0}
+{'loss': 9.05, 'grad_norm': 11.097055435180664, 'learning_rate': 0.0001623686723973257, 'epoch': 0.0}
+{'loss': 8.7519, 'grad_norm': 13.523963928222656, 'learning_rate': 0.00016427889207258834, 'epoch': 0.0}
+{'loss': 9.0425, 'grad_norm': 14.614153861999512, 'learning_rate': 0.000166189111747851, 'epoch': 0.0}
+{'loss': 9.1198, 'grad_norm': 14.573535919189453, 'learning_rate': 0.00016809933142311365, 'epoch': 0.0}
+{'loss': 9.1124, 'grad_norm': 26.92066192626953, 'learning_rate': 0.00017000955109837632, 'epoch': 0.0}
+{'loss': 8.2036, 'grad_norm': 11.080832481384277, 'learning_rate': 0.00017191977077363896, 'epoch': 0.0}
+{'loss': 8.5907, 'grad_norm': 33.200340270996094, 'learning_rate': 0.00017382999044890162, 'epoch': 0.0}
+{'loss': 8.8356, 'grad_norm': 7.596273422241211, 'learning_rate': 0.00017574021012416427, 'epoch': 0.0}
+{'loss': 8.8833, 'grad_norm': 9.49234390258789, 'learning_rate': 0.00017765042979942693, 'epoch': 0.0}
+{'loss': 8.9619, 'grad_norm': 15.740313529968262, 'learning_rate': 0.00017956064947468957, 'epoch': 0.0}
+{'loss': 8.2178, 'grad_norm': 4.99301290512085, 'learning_rate': 0.00018147086914995227, 'epoch': 0.0}
+{'loss': 8.3016, 'grad_norm': 19.370206832885742, 'learning_rate': 0.0001833810888252149, 'epoch': 0.0}
+{'loss': 8.5514, 'grad_norm': 17.584501266479492, 'learning_rate': 0.00018529130850047758, 'epoch': 0.0}
+{'loss': 8.0154, 'grad_norm': 6.152876853942871, 'learning_rate': 0.00018720152817574022, 'epoch': 0.0}
+{'loss': 8.3657, 'grad_norm': 10.987763404846191, 'learning_rate': 0.00018911174785100288, 'epoch': 0.0}
+{'loss': 8.6173, 'grad_norm': 30.30974578857422, 'learning_rate': 0.00019102196752626553, 'epoch': 0.0}
+{'loss': 8.2835, 'grad_norm': 6.2527008056640625, 'learning_rate': 0.0001929321872015282, 'epoch': 0.0}
+{'loss': 8.6459, 'grad_norm': 10.950940132141113, 'learning_rate': 0.00019484240687679083, 'epoch': 0.0}
+{'loss': 8.3708, 'grad_norm': 5.7710418701171875, 'learning_rate': 0.00019675262655205347, 'epoch': 0.0}
+{'loss': 9.0091, 'grad_norm': 7.747566223144531, 'learning_rate': 0.00019866284622731614, 'epoch': 0.0}
+{'loss': 8.6517, 'grad_norm': 28.247356414794922, 'learning_rate': 0.00020057306590257878, 'epoch': 0.0}
+{'loss': 8.2858, 'grad_norm': 6.110532283782959, 'learning_rate': 0.00020248328557784145, 'epoch': 0.0}
+{'loss': 8.1471, 'grad_norm': 4.886802673339844, 'learning_rate': 0.0002043935052531041, 'epoch': 0.0}
+{'loss': 8.6193, 'grad_norm': 5.459506511688232, 'learning_rate': 0.00020630372492836676, 'epoch': 0.0}
+{'loss': 8.3393, 'grad_norm': 9.031217575073242, 'learning_rate': 0.0002082139446036294, 'epoch': 0.0}
+{'loss': 8.4829, 'grad_norm': 9.865180015563965, 'learning_rate': 0.0002101241642788921, 'epoch': 0.0}
+{'loss': 8.6871, 'grad_norm': 15.465254783630371, 'learning_rate': 0.00021203438395415473, 'epoch': 0.0}
+{'loss': 8.743, 'grad_norm': 112.37545776367188, 'learning_rate': 0.0002139446036294174, 'epoch': 0.0}
+{'loss': 8.4043, 'grad_norm': 8.546117782592773, 'learning_rate': 0.00021585482330468004, 'epoch': 0.0}
+{'loss': 8.4868, 'grad_norm': 7.160277843475342, 'learning_rate': 0.0002177650429799427, 'epoch': 0.0}
+{'loss': 7.7696, 'grad_norm': 6.193401336669922, 'learning_rate': 0.00021967526265520535, 'epoch': 0.0}
+{'loss': 7.8985, 'grad_norm': 23.104761123657227, 'learning_rate': 0.00022158548233046802, 'epoch': 0.0}
+{'loss': 8.2347, 'grad_norm': 22.475631713867188, 'learning_rate': 0.00022349570200573066, 'epoch': 0.0}
+{'loss': 7.9662, 'grad_norm': 11.888975143432617, 'learning_rate': 0.00022540592168099333, 'epoch': 0.0}
+{'loss': 8.4064, 'grad_norm': 39.48232650756836, 'learning_rate': 0.00022731614135625597, 'epoch': 0.0}
+{'loss': 8.6053, 'grad_norm': 26.26849937438965, 'learning_rate': 0.00022922636103151864, 'epoch': 0.0}
+{'loss': 8.8866, 'grad_norm': 16.722026824951172, 'learning_rate': 0.00023113658070678128, 'epoch': 0.0}
+{'loss': 8.1691, 'grad_norm': 10.753746032714844, 'learning_rate': 0.00023304680038204392, 'epoch': 0.0}
+{'loss': 8.2287, 'grad_norm': 10.780058860778809, 'learning_rate': 0.00023495702005730658, 'epoch': 0.0}
+{'loss': 8.2613, 'grad_norm': 25.53999900817871, 'learning_rate': 0.00023686723973256925, 'epoch': 0.0}
+{'loss': 8.3852, 'grad_norm': 19.525516510009766, 'learning_rate': 0.00023877745940783192, 'epoch': 0.0}
+{'loss': 8.3118, 'grad_norm': 19.570266723632812, 'learning_rate': 0.00024068767908309456, 'epoch': 0.0}
+{'loss': 7.9857, 'grad_norm': 36.95051956176758, 'learning_rate': 0.00024259789875835723, 'epoch': 0.0}
+  File "/home/melaichouni/LLaVA/scripts/../llava/train/train_mem.py", line 7, in <module>
+    train_mm_projector(attn_implementation="eager")
+  File "/home/melaichouni/LLaVA/llava/train/train.py", line 1112, in train_mm_projector
+    trainer.train()
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 3735, in training_step
+    model.train()
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2037, in train
+    self.module.train(mode)
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2843, in train
+    module.train(mode)
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2843, in train
+    module.train(mode)
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2843, in train
+    module.train(mode)
+  [Previous line repeated 6 more times]
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2842, in train
+    for module in self.children():
+  File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2725, in children
+    for _name, module in self.named_children():
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/melaichouni/LLaVA/scripts/../llava/train/train_mem.py", line 7, in <module>
+[rank0]:     train_mm_projector(attn_implementation="eager")
+[rank0]:   File "/home/melaichouni/LLaVA/llava/train/train.py", line 1112, in train_mm_projector
+[rank0]:     trainer.train()
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2240, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 3735, in training_step
+[rank0]:     model.train()
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2037, in train
+[rank0]:     self.module.train(mode)
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2843, in train
+[rank0]:     module.train(mode)
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2843, in train
+[rank0]:     module.train(mode)
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2843, in train
+[rank0]:     module.train(mode)
+[rank0]:   [Previous line repeated 6 more times]
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2842, in train
+[rank0]:     for module in self.children():
+[rank0]:   File "/home/melaichouni/miniconda3/envs/llava/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2725, in children
+[rank0]:     for _name, module in self.named_children():
+[rank0]: KeyboardInterrupt
